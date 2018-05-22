@@ -28,9 +28,9 @@ int main() {
 	if (sta[0].dis != 0) { printf("The maximum travel distance = 0.00"); return 0; }//这种简洁的写法记得加大括号
 	sta[N].dis = D;
 	sta[N].price = 0.0;
-	int now = 0;//now为现在所在的站
-	double ans = 0;//ans为总油价钱
-	double nowtank = 0;//nowtank为现在油箱里的油量
+	int now = 0;    //now为现在所在的站
+	double ans = 0; //ans为总油价钱
+	double nowtank = 0;    //nowtank为现在油箱里的油量
 	double max = Cmax*Davg;//max为最大可到距离
 	while (now < N) {
 		int k = -1;              //k记录下一个要到的站
